@@ -1,0 +1,18 @@
+{
+    "Atalho_Iniciar":"CTRL+B",
+    "Atalho_Parar":"CTRL+L",
+    "Atalho_Pausar":"CTRL+SHIFT+J",
+    "Auto_Otimizar":false,
+    "Aviso":false,
+    "Cor_Borda":"#ff0000",
+    "Tema":[
+        "Light",
+        0
+    ],
+    "Tempo_Atualizar":250,
+    "Tempo_Espera":[
+        false,
+        0
+    ],
+    "Tempo_Pausa":0.003
+}

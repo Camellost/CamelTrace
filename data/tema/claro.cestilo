@@ -1,0 +1,1026 @@
+#lista_conteudo{
+	background-color: transparent;
+}
+#tela_c1,
+#tela_c6{
+	background-color: rgb(250, 250, 250);
+	border-radius: 5px;
+}
+#tela_menu{
+	background-color: rgb(250, 250, 250);
+}
+#tela_config_desenho,
+#tela_resultado{
+	background-color: rgb(250, 250, 250);
+}
+/* PERSONALIZADOS */
+#tela_sobre_l {
+	background-color: rgb(255, 255, 255);
+}
+#conteudo_desenho{
+	background-color: rgb(250, 250, 250);
+	border-radius: 5px;
+}
+#rotulo_nome_desenho{
+	font: 700 11pt "Arial";
+}
+#rotulo_estimado{
+	color: rgb(128, 128, 128);
+}
+#btn_desenhar {
+	background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+}
+#btn_desenhar:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(48, 121, 214);
+    border: 1px solid rgba(48, 121, 214, 255);
+}
+#btn_desenhar:pressed {
+	color: rgb(235, 235, 235);
+	background-color: rgba(48, 121, 214, 240);
+}
+#input_pesquisar {
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+#input_categorias {
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+#input_imagem {
+	color: rgb(112, 112, 112);
+	background-color: rgb(250, 250, 250);
+	border: 3px dashed rgb(222, 222, 222);
+	text-transform: uppercase;	
+	padding-top: 50px;
+	qproperty-icon: url(:/icones/Arrasta-Solta.png);
+	qproperty-iconSize: 96px 96px;
+}
+#input_imagem:hover {
+	border: 3px dashed rgb(190, 190, 190);
+}
+#input_filtro_1,
+#input_filtro_2,
+#input_filtro_3{
+	background-color: rgb(250, 250, 250);
+	color: rgb(112, 112, 112);
+	font: 700 10pt "Arial";
+	border: 1px solid rgb(190, 190, 190);
+	padding-top: 15px;
+}
+#input_filtro_1:hover,
+#input_filtro_2:hover,
+#input_filtro_3:hover{
+    background-color: rgba(48, 121, 214, 30);
+	color: rgb(48, 121, 214);
+}
+#img_bmp,
+#img_svg,
+#img_final{
+	background-color: rgb(222, 222, 222);
+	border-radius: 5px;
+}
+#input_proporcao {
+	background-color: rgba(0, 0, 0, 13);
+}
+#input_proporcao:hover {
+	background-color: rgba(0, 0, 0, 15);
+}
+
+#rotulo_c6,
+#rotulo_r,
+#rotulo_pesquisas{
+	font: 700 12pt "Arial";
+}
+#rotulo_c2,
+#rotulo_c3,
+#rotulo_c4,
+#rotulo_c5{
+	color: rgb(112, 112, 112);
+}
+#btn_editor{
+	border: 1px solid rgb(48, 121, 214);
+}
+#btn_menu1,
+#btn_menu2,
+#btn_menu3,
+#btn_menu4,
+#btn_menu5,
+#btn_menu6{
+	padding-left: 3px;
+}
+/* Icones Estilo */
+#logo_cameltrace_sobre,
+#logo_cameltrace,
+#logo_icons8_e,
+#logo_potrace_e,
+#logo_cameltrace_e,
+#icone_cacto,
+#icone_seta_dupla,
+#icone_seta_dupla_2,
+#rotulo_filtro,
+#icone_altura,
+#icone_largura,
+#icone_velocidade,
+#icone_nome_desenho,
+#icone_categoria,
+#icone_monitor,
+#icone_tamanho_img,
+#icone_concluido,
+#icone1_cc6,
+#icone2_cc6,
+#icone3_cc6,
+#icone4_cc6,
+#icone5_cc6,
+#icone6_cc6,
+#icone7_cc6{
+	background-color: none;
+	border: none;
+}
+
+/* Icones GLOBAL */
+#logo_cameltrace{
+	qproperty-icon: url(:/icones/Logo-CamelTrace-Escuro.svg);
+	qproperty-iconSize: 120px 35px;
+}
+#logo_cameltrace_sobre{
+	qproperty-icon: url(:/icones/Logo-CamelTrace-Escuro.svg);
+	qproperty-iconSize: 200px 60px;
+}
+#logo_icons8_e{
+	qproperty-icon: url(:/icones/Icons8_logo.svg);
+	qproperty-iconSize: 50px 50px;
+}
+#logo_potrace_e{
+	qproperty-icon: url(:/icones/potrace-logo-150.png);
+	qproperty-iconSize: 150px 150px;
+}
+#logo_cameltrace_e{
+	qproperty-icon: url(:/icones/Logo-CamelTrace-Preenchido.svg);
+	qproperty-iconSize: 150px 50px;
+}
+#btn_menu1{
+	qproperty-icon: url(:/icones/Caderno-Fechado.png);
+	qproperty-iconSize: 25px 25px;
+}
+#btn_menu2{
+	qproperty-icon: url(:/icones/Caderno-Aberto.png);
+	qproperty-iconSize: 25px 25px;
+}
+#btn_menu3{
+	qproperty-icon: url(:/icones/Vassoura.png);
+	qproperty-iconSize: 25px 25px;
+}
+#btn_menu4{
+	qproperty-icon: url(:/icones/Sobre.png);
+	qproperty-iconSize: 25px 25px;
+}
+#btn_menu5{
+	qproperty-icon: url(:/icones/Configurar.png);
+	qproperty-iconSize: 25px 25px;
+}
+#btn_menu6{
+	qproperty-icon: url(:/icones/Desligar.png);
+	qproperty-iconSize: 25px 25px;
+}
+#icone_cacto{
+	qproperty-icon: url(:/icones/Cacto.png);
+	qproperty-iconSize: 96px 96px;
+}
+#btn_opcoes{
+	qproperty-icon: url(:/icones/Opcoes.png);
+	qproperty-iconSize: 20px 20px;
+}
+#btn_modo{
+	qproperty-icon: url(:/icones/Grade.png);
+	qproperty-iconSize: 20px 20px;
+}
+#btn_voltar_c3,
+#btn_voltar_c4,
+#btn_voltar_c5{
+	qproperty-icon: url(:/icones/Seta-Esquerda.png);
+	qproperty-iconSize: 20px 20px;
+}
+#input_filtro_1{
+	qproperty-icon: url(:/icones/Filtro-1.svg);
+	qproperty-iconSize: 96px 96px;
+}
+#input_filtro_2{
+	qproperty-icon: url(:/icones/Filtro-2.svg);
+	qproperty-iconSize: 96px 96px;
+}
+#input_filtro_3{
+	qproperty-icon: url(:/icones/Filtro-3.svg);
+	qproperty-iconSize: 96px 96px;
+}
+#icone_seta_dupla,
+#icone_seta_dupla_2{
+	qproperty-icon: url(:/icones/Seta-Dupla.png);
+	qproperty-iconSize: 16px 16px;
+}
+#rotulo_filtro{
+	qproperty-icon: url(:/icones/Varinha.png);
+	qproperty-iconSize: 25px 25px;
+	color: rgb(48, 121, 214);
+	font: 700 11pt "Arial";
+}
+#btn_editor{
+	qproperty-icon: url(:/icones/Editor.png);
+	qproperty-iconSize: 20px 20px;
+}
+#btn_ajuda_c5{
+	qproperty-icon: url(:/icones/Ajuda-2.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone_monitor{
+	qproperty-icon: url(:/icones/Monitor.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone_tamanho_img{
+	qproperty-icon: url(:/icones/Tamanho-Imagem.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone_categoria{
+	qproperty-icon: url(:/icones/Categoria.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone_nome_desenho,
+#icone1_cc6{
+	qproperty-icon: url(:/icones/Renomear.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone_velocidade{
+	qproperty-icon: url(:/icones/Velocidade.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone_altura, #icone2_cc6{
+	qproperty-icon: url(:/icones/Altura.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone_largura, #icone3_cc6{
+	qproperty-icon: url(:/icones/Largura.png);
+	qproperty-iconSize: 20px 20px;
+}
+#input_proporcao{
+	qproperty-icon: url(:/icones/Link.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone4_cc6{
+	qproperty-icon: url(:/icones/Pontos.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone5_cc6{
+	qproperty-icon: url(:/icones/Remove_Tinta.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone6_cc6{
+	qproperty-icon: url(:/icones/Vassoura.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone7_cc6{
+	qproperty-icon: url(:/icones/Tempo.png);
+	qproperty-iconSize: 20px 20px;
+}
+#icone_concluido{
+	qproperty-icon: url(:/icones/Concluido.png);
+	qproperty-iconSize: 75px 75px;
+}
+
+/* Widget */
+QWidget[frameShape="5"]{
+	color: rgb(222, 222, 222);
+}
+QWidget[frameShape="4"]{
+	color: rgb(222, 222, 222);
+}
+
+/* MenuBar */
+QMenuBar {
+	background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+QMenuBar::item {
+    background-color: transparent;
+    padding: 10px 13px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+QMenuBar::item:selected {
+	background-color: rgba(0, 0, 0, 15);
+}
+QMenuBar::item:pressed {
+	background-color: rgba(0, 0, 0, 10);
+    color: rgba(0, 0, 0, 150);
+}
+
+/* Menu */
+QMenu {
+    padding-left: 1px;
+    padding-top: 1px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    border: 1px solid rgb(222, 222, 222);
+}
+QMenu::item {
+    background-color: transparent;
+	padding-left: 10px;
+	padding-right: 32px;
+    border-radius: 5px;
+    margin: 3px;
+    min-width: 100px;
+	min-height: 25px;
+}
+QMenu::icon{
+	padding-left: 5px;
+}
+QMenu::item:selected {
+    background-color: rgba(0, 0, 0, 15);
+}
+QMenu::item:pressed {
+    background-color: rgba(0, 0, 0, 10);
+}
+QMenu::right-arrow {
+    image: url(:/icones/Seta-Direita.png);
+    min-width: 32px;
+    min-height: 16px;
+}
+QMenu::indicator{
+	width: 16px;
+	padding-left: 5px;
+}
+QMenu::indicator:non-exclusive:unchecked {
+	image: none;
+}
+QMenu::indicator:non-exclusive:checked {
+	image: url(:/icones/Marcado.png);
+}
+QMenu::indicator:exclusive:unchecked {
+	image: none;
+}
+QMenu::indicator:exclusive:checked {
+	image: url(:/icones/Radio-Marcado.png);
+}
+QMenu::separator {
+	background-color: rgb(222, 222, 222);
+    height: 1px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+QMenuBar:disabled {
+    color: rgba(0, 0, 0, 150);
+}
+QMenu::item:disabled {
+    color: rgba(0, 0, 0, 150);
+    background-color: transparent;
+}
+
+/* PushButton */
+QPushButton {
+	background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+}
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 15);
+    border: 1px solid rgb(215, 215, 215);
+}
+QPushButton::pressed {
+	background-color: rgba(0, 0, 0, 10);
+    color: rgba(0, 0, 0, 150);
+}
+QPushButton::menu-indicator { 
+	image: none; 
+}
+QPushButton::default {
+	background-color: rgb(48, 121, 214);
+	color: rgb(255, 255, 255);
+    border: 1px solid rgb(48, 121, 214);
+}
+QPushButton::default:hover {
+	background-color: rgba(48, 121, 214, 230);
+}
+QPushButton::default:disabled {
+    border: 1px solid rgb(222, 222, 222);
+}
+QPushButton::disabled {
+    color: rgba(0, 0, 0, 150);
+    background-color: rgb(222, 222, 222);
+    border: 1px solid rgb(222, 222, 222);
+}
+
+/* ToolButton */
+QToolButton {
+    border-radius: 5px;
+	height: 25px;
+}
+QToolButton:hover {
+    background-color: rgba(0, 0, 0, 15);
+}
+QToolButton::menu-button:hover {
+    background-color: rgba(0, 0, 0, 15);
+}
+QToolButton::pressed {
+    background-color: rgba(0, 0, 0, 10);
+    color: rgba(0, 0, 0, 150);
+}
+QToolButton::menu-arrow {
+	image: none;
+}
+QToolButton::menu-indicator {
+	image: none;
+}
+QToolButton::menu-button {
+    width: 16px;
+	border: 1px solid rgba(0, 0, 0, 13);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+	image: url(:/icones/Seta-Baixo.png);
+}
+QToolButton:checked {
+	background-color: rgba(255, 255, 255, 100);
+	border: 1px solid rgb(48, 121, 214);
+}
+QToolButton:checked:pressed {
+	background-color: rgba(48, 121, 214, 50);
+}
+QToolButton::checked:disabled {
+    background-color: rgba(255, 255, 255, 50);
+}
+QToolButton::disabled {
+    color: rgba(0, 0, 0, 150);
+    background-color: rgb(222, 222, 222);
+}
+
+/* LineEdit */
+QLineEdit { 
+	background-color: rgb(235, 235, 235);
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid rgb(222, 222, 222);
+	padding-left:5px; 
+	padding-right:5px;
+}
+QLineEdit:hover {
+    background-color: rgba(0, 0, 0, 15);
+	border: 1px solid rgb(215, 215, 215);
+}
+QLineEdit:focus {
+	background-color: rgba(0, 0, 0, 10);
+	border: 1px solid rgb(48, 121, 214);
+} 
+QLineEdit:disabled {
+	background-color: rgb(210, 210, 210);
+	border: 1px solid rgb(195, 195, 195);
+}
+/* PaintText - TextEdit */
+QPlainTextEdit,
+QTextEdit { 
+	height: 25px;
+	background-color: rgba(0, 0, 0, 13);
+	border-radius: 5px;
+	padding-left:5px;
+	padding-right:5px;
+	border: 1px solid rgb(222, 222, 222);
+}
+QPlainTextEdit:hover,
+QTextEdit:hover {
+	background-color: rgba(0, 0, 0, 15);
+}
+QPlainTextEdit:focus,
+QTextEdit:focus {
+	background-color: rgba(0, 0, 0, 10);
+	border: 1px solid rgb(48, 121, 214);
+} 
+QPlainTextEdit:disabled,
+QTextEdit:disabled {
+	background-color: rgb(195, 195, 195);
+	border: 1px solid rgb(195, 195, 195);
+}
+
+/* SpinBox - DoubleSpinBox - DateTimeEdit*/
+QSpinBox,
+QDoubleSpinBox,
+QDateTimeEdit {
+	height: 25px;
+	background-color: rgba(0, 0, 0, 13);
+	border-radius: 5px;
+	padding-left:5px;
+	padding-right:5px;
+	border: 1px solid rgb(222, 222, 222);
+}
+QSpinBox:hover,
+QDoubleSpinBox:hover,
+QDateTimeEdit:hover {
+	background-color: rgba(0, 0, 0, 15);
+}
+QSpinBox:focus,
+QDoubleSpinBox:focus,
+QDateTimeEdit:focus {
+	background-color: rgba(0, 0, 0, 10);
+	border: 1px solid rgb(48, 121, 214);
+}
+QSpinBox::down-button,
+QSpinBox::up-button,
+QDoubleSpinBox::down-button,
+QDoubleSpinBox::up-button,
+QDateTimeEdit::down-button,
+QDateTimeEdit::up-button {
+	background-color: rgb(240, 240, 240);
+	width: 25px;
+	height: 20px;
+	border-radius: 4px;
+	padding: 1,2px;
+}
+QSpinBox::down-button,
+QDoubleSpinBox::down-button,
+QDateTimeEdit::down-button {
+	subcontrol-position: center left;
+}
+QSpinBox::up-button,
+QDoubleSpinBox::up-button,
+QDateTimeEdit::up-button {
+	subcontrol-position: center right;
+}
+QSpinBox::up-button:hover,
+QSpinBox::down-button:hover,
+QDoubleSpinBox::up-button:hover,
+QDoubleSpinBox::down-button:hover,
+QDateTimeEdit::down-button:hover,
+QDateTimeEdit::up-button:hover {
+	background-color: rgb(250, 250, 250);
+}
+QSpinBox::up-arrow,
+QDoubleSpinBox::up-arrow,
+QDateTimeEdit::up-arrow {
+	subcontrol-origin: content;
+	width: 12px;
+	height: 12px;
+	image: url(":/icones/Mais.png");
+}
+QSpinBox::down-arrow,
+QDoubleSpinBox::down-arrow,
+QDateTimeEdit::down-arrow {
+	subcontrol-origin: content;
+	width: 12px;
+	height: 12px;
+	image: url(":/icones/Menos.png");
+}
+QSpinBox:disabled,
+QDoubleSpinBox:disabled,
+QDateTimeEdit:disabled {
+	background-color: rgb(195, 195, 195);
+	border: 1px solid rgb(195, 195, 195);
+}
+QSpinBox::down-button:disabled,
+QSpinBox::up-button:disabled,
+QDoubleSpinBox::down-button:disabled,
+QDoubleSpinBox::up-button:disabled,
+QDateTimeEdit::down-button:disabled,
+QDateTimeEdit::up-button:disabled {
+	background-color: rgb(195, 195, 195);
+}
+QSpinBox::up-arrow:disabled,
+QDoubleSpinBox::up-arrow:disabled,
+QDateTimeEdit::up-arrow:disabled {
+	subcontrol-origin: content;
+	width: 12px;
+	height: 12px;
+	image: url(":/icones/Mais-Desativado.png");
+}
+QSpinBox::down-arrow:disabled,
+QDoubleSpinBox::down-arrow:disabled,
+QDateTimeEdit::down-arrow:disabled {
+	subcontrol-origin: content;
+	width: 12px;
+	height: 12px;
+	image: url(":/icones/Menos-Desativado.png");
+}
+
+/* ComboBox */
+
+QComboBox {
+    combobox-popup: 0;
+	background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 25px;
+}
+QComboBox:hover {
+    background-color: rgba(0, 0, 0, 15);
+	border: 1px solid rgb(215, 215, 215);
+}
+QComboBox:focus {
+    background-color: rgba(0, 0, 0, 10);
+    border: 1px solid rgb(48, 121, 214);
+}
+QComboBox::editable:focus {
+	background-color: rgb(250, 250, 250);
+}
+QComboBox::down-arrow {
+    image: url(:/icones/Seta-Baixo.png);
+    min-width: 32px;
+    min-height: 16px;
+}
+QComboBox::down-arrow:on {
+    image: url(:/icones/Seta-Cima.png);
+    min-width: 32px;
+    min-height: 16px;
+}
+QComboBox::drop-down {
+    background-color: transparent;
+    min-width: 40px;
+}
+QComboBox:disabled {
+    color: rgba(0, 0, 0, 150);
+    background-color: rgba(0, 0, 0, 15);
+}
+QComboBox::down-arrow:disabled {
+    image: url(:/icones/Seta-Baixo-Desativado.png);
+    width: 16px;
+}
+QComboBox QListView {
+    background-color: rgb(249, 249, 249);
+	padding: 6px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid rgb(222, 222, 222);
+}    
+QComboBox QListView::item {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+    min-height: 25px;
+}
+QComboBox QListView::item:selected {
+    background-color: rgba(0, 0, 0, 15);
+	color: rgb(0, 0, 0);
+}
+
+/* GroupBox */
+QGroupBox {
+    border-radius: 5px;
+    border: 1px solid rgb(222, 222, 222);
+    margin-top: 30px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    background-color: rgb(222, 222, 222);
+    padding: 7px 15px;
+    margin-left: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+QGroupBox::title::disabled {
+    color: rgba(0, 0, 0, 150)
+}
+QGroupBox::indicator {
+  width: 15px;
+  height: 15px;
+}
+
+/* ScrollBar Horizontal */
+QScrollBar:horizontal {
+	height: 15px;
+	margin: 3px 15px 3px 15px;
+	border: none;
+	border-radius: 4px;
+	background-color: rgb(164, 164, 164);
+}
+QScrollBar::handle:horizontal {
+	background-color: rgb(222, 222, 222);
+	min-width: 15px;
+	border-radius: 4px;
+}
+QScrollBar::add-line:horizontal {
+	margin: 0px 3px 0px 3px;
+	border-image: url(:/qss_icons/rc/Nenhum_Arq.png);
+	width: 10px;
+	height: 10px;
+	subcontrol-position: right;
+	subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+	margin: 0px 3px 0px 3px;
+	border-image: url(Nenhum_Arq.png);
+	height: 10px;
+	width: 10px;
+	subcontrol-position: left;
+	subcontrol-origin: margin;
+}
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal {
+	background: none;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal { 
+	background: none;
+}
+
+/* ScrollBar Vertical */
+QScrollBar:vertical {
+	background-color: rgb(164, 164, 164);
+	width: 15px;
+	margin: 15px 3px 15px 3px;
+	border: 1px transparent;
+	border-radius: 4px;
+}
+QScrollBar::handle:vertical {
+	background-color: rgb(222, 222, 222);
+	min-height: 15px;
+	border-radius: 4px;
+}
+QScrollBar::sub-line:vertical {
+	margin: 3px 0px 3px 0px;
+	border-image: url(:/qss_icons/rc/up_arrow_disabled.png);
+	height: 10px;
+	width: 10px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+}
+QScrollBar::add-line:vertical {
+	margin: 3px 0px 3px 0px;
+	border-image: url(:/qss_icons/rc/down_arrow_disabled.png);
+	height: 10px;
+	width: 10px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+}
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+	background: none;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+	background: none;
+}
+QScrollBar::horizontal:disabled, QScrollBar::vertical:disabled{
+	background-color: rgb(150, 150, 150);
+}
+QScrollBar::handle:horizontal:disabled, QScrollBar::handle:vertical:disabled { 
+	background-color: rgb(150, 150, 150);
+}
+
+/* RadioButton */
+QRadioButton{
+	spacing: 5px;
+}
+QRadioButton::indicator {
+	width: 15px;
+	height: 15px;
+}
+QRadioButton::indicator::unchecked{
+	image: url(:/icones/Radio-Off.svg);
+}
+QRadioButton::indicator:unchecked:hover {
+	image: url(:/icones/Radio-Hover.svg);
+}
+QRadioButton::indicator:checked {
+	image: url(:/icones/Radio-On.svg);
+}
+QRadioButton::indicator:checked:disabled {
+	image: url(:/icones/Radio-Desativado-On.svg);
+}
+QRadioButton::indicator:unchecked:disabled {
+	image: url(:/icones/Radio-Desativado-Off.svg);
+}
+
+/* CheckBox */
+QCheckBox{
+	spacing: 5px;
+}
+QCheckBox::indicator {
+	width: 15px;
+	height: 15px;
+}
+QCheckBox::indicator::unchecked, QGroupBox::indicator::unchecked {
+	image: url(:/icones/Check-Off.svg);
+}
+QCheckBox::indicator:unchecked:hover, QGroupBox::indicator:unchecked:hover {
+	image: url(:/icones/Check-Hover.svg);
+}
+QCheckBox::indicator:checked, QGroupBox::indicator:checked {
+	image: url(:/icones/Check-On.svg);
+}
+QCheckBox::indicator:checked:disabled, QGroupBox::indicator:checked:disabled {
+	image: url(:/icones/Check-Desativado-On.svg);
+}
+QCheckBox::indicator:unchecked:disabled, QGroupBox::indicator:unchecked:disabled {
+	image: url(:/icones/Check-Desativado-Off.svg);
+}
+
+/* ProgressBar*/
+QProgressBar{
+	color: rgb(255, 255, 255);
+	font: 700 9pt "Arial";
+	background-color: rgb(222, 222, 222);
+	border-radius: 5px;
+}
+QProgressBar::chunk{
+	background-color: rgb(48, 121, 214);
+	border-radius: 5px;
+}
+
+/* Splitter */
+QSplitter::handle{
+	background-color: rgb(80, 80, 80);
+}
+/* ToolBar */
+QToolBar {
+	spacing: 2px;
+	background-color: rgb(255, 255, 255);
+	padding: 5px;
+}
+QToolBar:horizontal {
+	border-bottom: 1px solid rgb(222, 222, 222);
+}
+QToolBar:vertical{
+	border-right: 1px solid rgb(222, 222, 222);
+}
+QToolBar > QToolButton{
+	border: none;
+	background: none;
+	padding: 3px;
+	min-width: 25px;
+}
+QToolBar::handle:horizontal {
+    width: 16px;
+	image: url(:/icones/Arrastar-Horizontal.png);
+}
+QToolBar::handle:vertical  {
+    height: 16px;
+	image: url(:/icones/Arrastar-Vertical.png);
+}
+
+/* StatusBar*/
+QStatusBar {
+    background-color: rgb(255, 255, 255);
+}
+QStatusBar::item {
+    border: none;
+}
+
+/* ToolTip*/
+QToolTip {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(222, 222, 222);
+}
+
+/* ToolBox */
+QToolBox {
+	padding: 3px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px
+}
+QToolBox::tab {
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+	padding-left: 10px;
+}
+QToolBox::tab:hover {
+    background-color: rgb(235, 235, 235);
+}
+QToolBox::tab:selected {
+	background-color: rgb(48, 121, 214);
+	color: rgb(255, 255, 255);
+}
+QToolBox::tab:disabled {
+	background-color: rgb(222, 222, 222);
+    color: rgba(0, 0, 0, 150)
+}
+/* TabWidget */
+QTabWidget {
+}
+QTabWidget::pane {
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+}
+QTabWidget::tab-bar:top, QTabWidget::tab-bar:bottom {
+    left: 5px;
+}
+QTabWidget::tab-bar:right {
+    left: 0px;
+	top: 2px;
+}
+QTabWidget::tab-bar:left {
+    left: 2px;
+	top: 2px;
+}
+QTabBar::close-button:selected {
+	image: url(:/icones/Close.png);
+}
+QTabBar::close-button:!selected, QTabBar::close-button:selected:disabled {
+ 	image: url(:/icones/Close-Cinza.png);
+}
+QTabBar::close-button:hover {
+    background-color: rgba(0, 0, 0, 40);
+	border-radius: 4px;
+}
+QTabBar::close-button:hover:!selected {
+    background-color: rgba(0, 0, 0, 20);
+	border-radius: 4px;
+}
+QTabBar::tab {
+	background-color: rgba(0, 0, 0, 30);
+	padding: 7px 15px;
+	margin-right: 2px;
+	/*text-transform: uppercase;*/	
+}
+QTabBar::tab:top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+QTabBar::tab:bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+QTabBar::tab:left {
+	padding: 15px 7px;
+	margin-top: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;	
+}
+QTabBar::tab:right {
+	padding: 15px 7px;
+	margin-top: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;	
+}
+QTabBar::tab:hover {
+     background-color: rgba(0, 0, 0, 15);
+}
+QTabBar::tab:selected {
+	background-color: rgb(48, 121, 214);
+	color: rgb(255, 255, 255);
+}
+QTabBar::tab:disabled {
+	background-color: rgb(222, 222, 222);
+	color: rgba(0, 0, 0, 150)
+}
+QTabBar::scroller {
+	width: 60px;
+}
+QTabBar QToolButton::right-arrow {
+	padding: 3px;
+	image: url(:/icones/Seta-Direita.png);
+}
+QTabBar QToolButton::left-arrow {
+	padding: 3px;
+	image: url(:/icones/Seta-Esquerda.png);
+}
+QTabBar QToolButton::up-arrow {
+	padding: 3px;
+	image: url(:/icones/Seta-Cima.png);
+}
+QTabBar QToolButton::down-arrow {
+	padding: 3px;
+ 	image: url(:/icones/Seta-Baixo.png);
+}
+
+/* DialogButtonBox */
+QMessageBox, QDialogButtonBox, QDialog{
+	background-color: rgb(250, 250, 250);
+}
+QDialogButtonBox QPushButton{
+	background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+	height: 25px;
+	width: 150px;
+}
+QDialogButtonBox QPushButton:hover{
+    background-color: rgba(0, 0, 0, 15);
+    border: 1px solid rgb(215, 215, 215);
+}
+QDialogButtonBox QPushButton:default{
+	background-color: rgb(48, 121, 214);
+	color: rgb(255, 255, 255);
+    border: 1px solid rgb(222, 222, 222);
+}
+QDialogButtonBox QPushButton:disabled{
+    color: rgba(0, 0, 0, 150);
+    background-color: rgb(222, 222, 222);
+    border: 1px solid rgb(222, 222, 222);
+}
+QDialogButtonBox QPushButton:default::disabled{
+    border: 1px solid rgb(222, 222, 222);
+}
+
+/* PushLink */
+#QPushLink {
+    color: rgb(48, 121, 214);
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+	font: 11pt "Microsoft Sans Serif";
+	height: 25px;
+}
+#QPushLink:hover {
+	background-color: rgba(48, 121, 214, 10);
+}
+#QPushLink::pressed {
+	background-color: rgba(48, 121, 214, 15);
+}
+#QPushLink:disabled {
+    color: rgba(0, 0, 0, 150)
+}
